@@ -1,3 +1,12 @@
+//
+// ethereum-address-checksum
+// (c) 2017 Andrzej Budzanowski <kontakt@andrzej.budanowski.pl>
+// --
+// This simple utility allowes you to get ethereum addresses with valid checksum formatting
+// 
+// To use run:
+//      node checker.js < input_file > output_file
+//
 var ether = require('ethereumjs-util');
 var readline = require('readline');
 
@@ -22,3 +31,4 @@ var readline = require('readline');
         }
     });
 })();
+
